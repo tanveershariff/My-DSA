@@ -2,7 +2,7 @@ class Solution {
     public int maxArea(int[] height) {
         int n = height.length;
         int first = 0 , last = n-1, maxi = 0;
-        while(first<last) {
+        while(first!=last) {
             int min = Math.min(height[first], height[last]);
             int wid = last - first;
             int result = min*wid;
