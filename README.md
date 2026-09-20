@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/tanveershariff/My-DSA/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/tanveershariff/My-DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/tanveershariff/My-DSA/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/tanveershariff/My-DSA/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/tanveershariff/My-DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
@@ -62,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/tanveershariff/My-DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/tanveershariff/My-DSA/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
