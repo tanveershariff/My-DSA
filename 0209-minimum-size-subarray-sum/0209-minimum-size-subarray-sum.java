@@ -12,7 +12,7 @@ class Solution {
                 l++;
             }
         }
-        if(ans == Integer.MAX_VALUE) {
+        if (ans == Integer.MAX_VALUE) {
             return 0;
         }
 
