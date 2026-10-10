@@ -1,7 +1,5 @@
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        // int ans = 0;
-        // ans = 
         return (helper(nums, k) - helper(nums, k - 1));
     }
 
