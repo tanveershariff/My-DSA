@@ -1,8 +1,8 @@
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        int ans = 0;
-        ans = (helper(nums, k) - helper(nums, k - 1));
-        return ans;
+        // int ans = 0;
+        // ans = 
+        return (helper(nums, k) - helper(nums, k - 1));
     }
 
     private int helper(int[] nums, int k) {
