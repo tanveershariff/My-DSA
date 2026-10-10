@@ -4,11 +4,10 @@ class Solution {
     }
 
     private int helper(int[] nums, int k) {
-        int n = nums.length;
         int ans = 0;
         int l = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int r = 0; r < n; r++) {
+        for (int r = 0; r < nums.length; r++) {
             map.put(nums[r], map.getOrDefault(nums[r], 0) + 1);
             while (map.size() > k) {
                 map.put(nums[l], map.get(nums[l]) - 1);
