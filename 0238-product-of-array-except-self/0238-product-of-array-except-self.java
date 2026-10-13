@@ -3,12 +3,12 @@ class Solution {
         int n = nums.length;
         int[] ans = new int[n];
         int temp = 1;
-        ans[0] =1;
+        ans[0] = 1;
         for (int i = 1; i < n; i++) {
-            
+
             ans[i] = nums[i - 1] * ans[i - 1];
         }
-        int right = nums[n-1];
+        int right = nums[n - 1];
         for (int i = n - 2; i >= 0; i--) {
             ans[i] = ans[i] * right;
             right *= nums[i];
