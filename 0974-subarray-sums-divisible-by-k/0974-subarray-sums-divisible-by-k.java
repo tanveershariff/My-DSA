@@ -8,13 +8,13 @@ class Solution {
         for (int i = 0; i < n; i++) {
             sum += nums[i];
             int target = sum % k;
-            if(target < 0) {
-                target+=k;
+            if (target < 0) {
+                target += k;
             }
             if (map.containsKey(target)) {
                 count += map.get(target);
-                
-            } 
+
+            }
             map.put(target, map.getOrDefault(target, 0) + 1);
         }
         return count;
