@@ -4,8 +4,7 @@ class Solution {
         int r = s.length()-1;
         while(l<r) {
             if(s.charAt(l)!=s.charAt(r)) {
-               return helper(s, l+1, r) ||
-               helper(s, l, r-1); 
+               return helper(s, l+1, r) || helper(s, l, r-1); 
             }
             l++;
             r--;
